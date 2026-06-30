@@ -60,35 +60,30 @@ If you're not able to use the import feature, write this code instead:
 
 
 4. 🧹 Data Cleaning
-        Identified and removed rows where MRP or discounted selling price was zero
-        
-        Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
+    * Identified and removed rows where the MRP or discounted selling price was zero.
+    * Converted the mrp and discountedSellingPrice values from paise to rupees to ensure consistency and improve readability.
+
 5. 📊 Business Insights
-        Found top 10 best-value products based on discount percentage
-        
-   Identified high-MRP products that are currently out of stock
-        
-        Estimated potential revenue for each product category
-        
-        Filtered expensive products (MRP > ₹500) with minimal discount
-        
-        Ranked top 5 categories offering highest average discounts
-        
-        Calculated price per gram to identify value-for-money products
-        
-        Grouped products based on weight into Low, Medium, and Bulk categories
-        
-        Measured total inventory weight per product category
+    * Identified the top 10 best-value products based on the highest discount percentage.
+    * Found high-MRP products that are currently out of stock.
+    * Estimated the potential revenue for each product category.
+    * Filtered premium products (MRP > ₹500) that offer minimal discounts.
+    * Ranked the top 5 product categories with the highest average discount percentages.
+    * Calculated the price per gram to identify the best value-for-money products.
+    * Categorized products into Low, Medium, and Bulk weight groups.
+    * Measured the total inventory weight for each product category.
+
 
 Open zepto_SQL_data_analysis.sql
-          This file contains:
-          Table creation
-          Data exploration
-          Data cleaning
-          SQL Business analysis
-          Load the dataset into mysql
-          Create a database and run the SQL file
-          Import the dataset 
+  This file contains:
+  * Created a MySQL database for the project.
+  * Imported the dataset into the database.
+  * Loaded the dataset into MySQL for analysis.
+  * Created the required database tables.
+  * Performed data exploration to understand the dataset structure and quality.
+  * Cleaned the data by handling invalid records and ensuring consistency.
+  * Conducted SQL-based business analysis to generate actionable insights.
+
 
 
 💡 Thanks for checking out the project! Your support means a lot — feel free to star ⭐ this repo or share it with someone learning SQL.🚀
