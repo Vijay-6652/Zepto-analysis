@@ -51,17 +51,13 @@ If you're not able to use the import feature, write this code instead:
 ```
 3. 🔍 Data Exploration
 
-        Counted the total number of records in the dataset
-        
-        Viewed a sample of the dataset to understand structure and content
-        
-        Checked for null values across all columns
-        
-        Identified distinct product categories available in the dataset
-        
-        Compared in-stock vs out-of-stock product counts
-        
-        Detected products present multiple times, representing different SKUs
+    * Counted the total number of records in the dataset.
+    * Examined a sample of the dataset to understand its structure and contents.
+    * Checked all columns for missing (null) values.
+    * Identified the distinct product categories present in the dataset.
+    * Compared the number of in-stock and out-of-stock products.
+    * Detected products with multiple entries, indicating different SKUs.
+
 
 4. 🧹 Data Cleaning
         Identified and removed rows where MRP or discounted selling price was zero
@@ -70,7 +66,7 @@ If you're not able to use the import feature, write this code instead:
 5. 📊 Business Insights
         Found top 10 best-value products based on discount percentage
         
-        Identified high-MRP products that are currently out of stock
+   Identified high-MRP products that are currently out of stock
         
         Estimated potential revenue for each product category
         
