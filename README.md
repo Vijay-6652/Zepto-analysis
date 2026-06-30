@@ -50,6 +50,7 @@ If you're not able to use the import feature, write this code instead:
     IGNORE 1 ROWS;
 ```
 3. 🔍 Data Exploration
+
         Counted the total number of records in the dataset
         
         Viewed a sample of the dataset to understand structure and content
@@ -62,11 +63,11 @@ If you're not able to use the import feature, write this code instead:
         
         Detected products present multiple times, representing different SKUs
 
-5. 🧹 Data Cleaning
+4. 🧹 Data Cleaning
         Identified and removed rows where MRP or discounted selling price was zero
         
         Converted mrp and discountedSellingPrice from paise to rupees for consistency and readability
-7. 📊 Business Insights
+5. 📊 Business Insights
         Found top 10 best-value products based on discount percentage
         
         Identified high-MRP products that are currently out of stock
@@ -84,14 +85,14 @@ If you're not able to use the import feature, write this code instead:
         Measured total inventory weight per product category
 
 Open zepto_SQL_data_analysis.sql
-This file contains:
-Table creation
-Data exploration
-Data cleaning
-SQL Business analysis
-Load the dataset into mysql
-Create a database and run the SQL file
-Import the dataset 
+          This file contains:
+          Table creation
+          Data exploration
+          Data cleaning
+          SQL Business analysis
+          Load the dataset into mysql
+          Create a database and run the SQL file
+          Import the dataset 
 
 
 💡 Thanks for checking out the project! Your support means a lot — feel free to star ⭐ this repo or share it with someone learning SQL.🚀
